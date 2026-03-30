@@ -9,67 +9,57 @@ Este projeto utiliza uma arquitetura moderna, escalável e orientada a processam
 
 ---
 
-## 🔙 Backend
+## Backend
 - **FastAPI** – Framework web de alta performance para APIs  
 - **Pydantic** – Validação e serialização de dados  
 - **SQLAlchemy** – ORM (Mapeamento Objeto-Relacional)  
 - **Alembic** – Migrations de banco de dados  
 
----
 
-## 📨 Mensageria
+## Mensageria
 - **RabbitMQ** – Broker de mensagens para gerenciamento de filas  
 - **Celery** – Processamento assíncrono de tarefas  
 
----
 
-## ⚙️ Processamento
+## Processamento
 - **Celery Worker** – Execução de tarefas em background  
 - **Celery Beat** – Agendamento de tarefas periódicas  
 
----
 
-## 🗄️ Banco de Dados
+## Banco de Dados
 - **PostgreSQL** – Banco relacional para persistência  
 
----
 
-## ⚡ Backend de Tarefas / Cache
+## Backend de Tarefas / Cache
 - **Redis** – Utilizado como backend do Celery e camada de cache  
 
----
 
-## 🐳 Infraestrutura
+## Infraestrutura
 - **Docker** – Containerização das aplicações  
 - **Docker Compose** – Orquestração local para desenvolvimento  
 - **Docker Swarm** – Orquestração para ambiente de produção  
 
----
 
-## 🚀 CI/CD
+## CI/CD
 - **GitHub Actions** – Integração e entrega contínua  
 
----
 
-## 🧪 Testes
+## Testes
 - **Pytest** – Testes unitários e de integração  
 - **Pytest-Cov** – Cobertura de código  
 - **Playwright** *(opcional)* – Testes end-to-end  
 
----
 
-## 📚 Documentação *(opcional)*
+## Documentação *(opcional)*
 - **MkDocs** – Geração de documentação estática  
 
----
 
-## 🎯 Qualidade de Código
+## Qualidade de Código
 - **Black** – Formatação automática de código  
 - **Isort** – Organização de imports  
 
----
 
-# 📦 Containers
+# Containers
 
 A aplicação é composta por múltiplos containers executando a partir do mesmo código:
 
@@ -82,7 +72,7 @@ A aplicação é composta por múltiplos containers executando a partir do mesmo
 
 ---
 
-## 🧠 Nota de Arquitetura
+## Nota de Arquitetura
 
 Apesar de ser um único repositório, o sistema é executado como múltiplos serviços:
 
