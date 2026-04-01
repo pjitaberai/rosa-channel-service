@@ -1,0 +1,1 @@
+"""Rosa Channel Service package."""
